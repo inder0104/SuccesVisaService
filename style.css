@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+root{
+    --primary-color:#4f46e5;
+    --darkgrey-color:#6b7280 ;
+    --indigo-color:#a5b4fc;
+    --skyblue-color:hsl(200, 98%, 39%);
+   --purple-color:#9333ea;
+    
+}
+
+
+        .navigation {
+    background-color: var(red-color)
+
+}
+
+.link { 
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+.navigation {
+    color: white; 
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+ }
+.navigation .nav-pills {
+    text-align: right;
+}
+.navigation .nav-brand {
+ font-weight: bold; 
+ font-size: medium;  
+}
+.navigation .link {
+    color: white;
+
+}
+.navigation .link-active {
+    font-weight: bold;
+}
